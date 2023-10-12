@@ -21,10 +21,3 @@ def se_studenter():
         print(c.Student(förnamn, efternamn, personnr)) #skriver in fil, får ut studenter med strängen från Student klassen
         personnr = filen.readline().strip()
     filen.close()
-
-
-#def skriv_till_fil(u_lista):
-#    fil = fil_val()
-#    with open(fil, 'w', encoding= 'utf-8') as f:
-#        for student in u_lista:
-#            f.write(f"{student.personnummer}\n{student.efternamn}\n{student.förnamn}\n")
